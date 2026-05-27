@@ -44,9 +44,9 @@
 #include <Adafruit_MCP4725.h>
 
 // ─── PI Controller Parameters ──────────────────────────────
-#define KP                  800.0f
-#define KI                  120.0f
-#define INTEGRAL_LIMIT      500.0f
+#define KP                  100.0f
+#define KI                  20.0f
+#define INTEGRAL_LIMIT      10.0f
 #define CONTROL_LOOP_MS     50
 
 // ─── Safety Limits ─────────────────────────────────────────
@@ -56,8 +56,9 @@
 #define MAX_SETPOINT_A      1.8f
 
 // ─── DAC Operating Range ───────────────────────────────────
-#define DAC_MIN_VALUE       0
-#define DAC_MAX_VALUE       2600
+#define DAC_MIN_VALUE       1750
+#define DAC_MAX_VALUE       3000
+#define DAC_OFF_VALUE       0
 
 // ─── Measurement Constants ─────────────────────────────────
 #define SHUNT_RESISTANCE    1.0f
@@ -205,7 +206,7 @@ float readSupplyVoltage() {
 
 // ─── Read Current via Shunt ────────────────────────────────
 float readCurrent() {
-  ads.setGain(GAIN_SIXTEEN);
+  ads.setGain(GAIN_TWO);
   int16_t raw = ads.readADC_Differential_0_1();
   float current = ads.computeVolts(raw) / SHUNT_RESISTANCE;
   return max(0.0f, current);
