@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DC Programmable Load Project
 
 ## Overview
@@ -14,3 +15,6 @@ The circuit adjusts a MOSFET gate voltage.
 The MOSFET draws current from the source under test.
 A sense resistor measures the actual current.
 The control loop adjusts until measured current matches the target current.
+=======
+# dc-programmable-load
+>>>>>>> 85c130570e9682d7726ca3313fda86f476f2dccb
