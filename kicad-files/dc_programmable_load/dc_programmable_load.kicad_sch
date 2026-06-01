@@ -2839,7 +2839,7 @@
 		)
 		(uuid "43d6ece6-79f7-403b-b5f7-990ab5efaceb")
 	)
-	(label "output"
+	(label "opamp_output"
 		(at 107.95 93.98 0)
 		(effects
 			(font
@@ -2909,6 +2909,16 @@
 		)
 		(uuid "61257c07-5390-47bb-81bd-672be6058221")
 	)
+	(label "dac_output"
+		(at 100.33 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "744fa2b4-fdf7-4c51-8bdd-80e7187df446")
+	)
 	(label "scl"
 		(at 217.17 88.9 0)
 		(effects
@@ -2918,16 +2928,6 @@
 			(justify left bottom)
 		)
 		(uuid "7ec855a8-db74-4538-a442-75854e895ef7")
-	)
-	(label "output"
-		(at 100.33 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7edf986d-30a8-4718-9b2b-166ed4c00439")
 	)
 	(label "GND"
 		(at 76.2 127 0)
@@ -2948,16 +2948,6 @@
 			(justify left bottom)
 		)
 		(uuid "911a496c-1a2b-49c4-8c1a-5f728e3541df")
-	)
-	(label "non-inverting"
-		(at 100.33 38.1 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "964a74ab-44dc-4a85-bf63-35941a4c0e5f")
 	)
 	(label "GND"
 		(at 142.24 118.11 0)
@@ -2999,7 +2989,17 @@
 		)
 		(uuid "ab696d93-a916-4f5e-8e30-dc1ba02b0db6")
 	)
-	(label "output"
+	(label "opamp_output"
+		(at 101.6 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ae961259-15d0-4bb9-af2d-073304af3425")
+	)
+	(label "dac_output"
 		(at 257.81 132.08 0)
 		(effects
 			(font
