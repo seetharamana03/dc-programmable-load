@@ -489,6 +489,231 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x03_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03_Socket"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Jack-DC"
 			(pin_names
 				(offset 1.016)
@@ -1466,14 +1691,17 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Temperature:DS18B20"
+		(symbol "Regulator_Linear:LM317_SOT-223"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at -3.81 6.35 0)
+				(at -3.81 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1482,39 +1710,30 @@
 					)
 				)
 			)
-			(property "Value" "DS18B20"
-				(at 6.35 6.35 0)
+			(property "Value" "LM317_SOT-223"
+				(at 0 3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-				(at -25.4 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-				(at -3.81 6.35 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 				)
 			)
-			(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1525,7 +1744,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "OneWire 1Wire Dallas Maxim"
+			(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1536,7 +1755,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "TO*92*"
+			(property "ki_keywords" "Adjustable Voltage Regulator 1A Positive"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1547,9 +1766,20 @@
 					)
 				)
 			)
-			(symbol "DS18B20_0_1"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LM317_SOT-223_0_1"
 				(rectangle
-					(start -5.08 5.08)
+					(start -5.08 1.905)
 					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
@@ -1559,130 +1789,12 @@
 						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -3.937 3.175) (xy -3.937 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 3.175) (xy -3.302 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 2.54) (xy -3.302 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 1.905) (xy -3.302 1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 1.27) (xy -3.302 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.937 0.635) (xy -3.302 0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -3.937 3.175)
-					(mid -3.302 3.8073)
-					(end -2.667 3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center -3.302 -2.54)
-					(radius 1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.667 3.175) (xy -2.667 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -2.667 -1.905)
-					(end -3.937 0)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
-			(symbol "DS18B20_1_1"
-				(pin power_in line
+			(symbol "LM317_SOT-223_1_1"
+				(pin input line
 					(at 0 -7.62 90)
 					(length 2.54)
-					(name "GND"
+					(name "ADJ"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1697,10 +1809,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
+				(pin power_out line
 					(at 7.62 0 180)
 					(length 2.54)
-					(name "DQ"
+					(name "VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1716,7 +1828,249 @@
 					)
 				)
 				(pin power_in line
-					(at 0 7.62 270)
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Sensor_Temperature:MCP9808_DFN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MCP9808_DFN"
+				(at 10.16 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP9808-0.5C-Maximum-Accuracy-Digital-Temperature-Sensor-Data-Sheet-DS20005095B.pdf"
+				(at -6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "±0.25°C (±0.5°C) Typical (Maximum), Digital Temperature Sensor, DFN-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "temperature sensor I2C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "DFN*1EP*3x2mm*P0.5mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MCP9808_DFN_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "MCP9808_DFN_1_1"
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "Alert"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
 					(length 2.54)
 					(name "V_{DD}"
 						(effects
@@ -1725,7 +2079,25 @@
 							)
 						)
 					)
-					(number "3"
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "EP/GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2616,8 +2988,124 @@
 		(uuid "997df7c2-74ff-4928-9bb8-2092cccfd542")
 	)
 	(no_connect
-		(at 147.32 173.99)
-		(uuid "88bd7edb-3cc2-444f-8f33-ce9c92df3543")
+		(at 205.74 91.44)
+		(uuid "0749364d-ffcc-41da-91dc-96dd8cf1d79b")
+	)
+	(no_connect
+		(at 180.34 66.04)
+		(uuid "0b49ea6a-9b03-4621-8499-2bd6f150d6ee")
+	)
+	(no_connect
+		(at 168.91 35.56)
+		(uuid "16b918ff-9ef7-435e-a7cf-2bdfc03e7fe1")
+	)
+	(no_connect
+		(at 168.91 38.1)
+		(uuid "17f4ffb6-ee6d-4687-ba23-7cc7af3c1e43")
+	)
+	(no_connect
+		(at 180.34 73.66)
+		(uuid "31be7676-846e-415c-a3cf-0b6f7dc6b3fc")
+	)
+	(no_connect
+		(at 205.74 63.5)
+		(uuid "35b7bcbb-09e6-461a-9b99-8a918c1b4a38")
+	)
+	(no_connect
+		(at 180.34 78.74)
+		(uuid "3b64007a-753f-45a0-8447-fa1d1c009d6b")
+	)
+	(no_connect
+		(at 205.74 81.28)
+		(uuid "3e4a0df7-14bf-4a2c-8c1b-b474c4853c3e")
+	)
+	(no_connect
+		(at 168.91 40.64)
+		(uuid "4294063f-c806-41b9-afde-3b961d508015")
+	)
+	(no_connect
+		(at 180.34 91.44)
+		(uuid "5e374adf-4618-442b-a27b-f5a466b14537")
+	)
+	(no_connect
+		(at 180.34 71.12)
+		(uuid "61115128-6cf6-4a28-94fe-76e73368cd13")
+	)
+	(no_connect
+		(at 128.27 143.51)
+		(uuid "61e2ef3b-b7cc-4a78-966a-89e79f3fdf3d")
+	)
+	(no_connect
+		(at 205.74 93.98)
+		(uuid "6288d7bb-28a4-4819-af6c-88cf00f3d53d")
+	)
+	(no_connect
+		(at 205.74 71.12)
+		(uuid "7078812c-18df-4d14-b993-18149dc76851")
+	)
+	(no_connect
+		(at 180.34 81.28)
+		(uuid "72a7ab7d-6f59-464f-b878-4c23ea5dde6f")
+	)
+	(no_connect
+		(at 180.34 83.82)
+		(uuid "88e0a44a-3380-4647-ba51-b19b4193be3e")
+	)
+	(no_connect
+		(at 190.5 50.8)
+		(uuid "8cf4cab3-241c-4cbf-a0dd-5fc426a5e179")
+	)
+	(no_connect
+		(at 205.74 60.96)
+		(uuid "8e0ca9e9-ff10-4d82-bcc7-bb05967f0745")
+	)
+	(no_connect
+		(at 180.34 60.96)
+		(uuid "9d2fbfdb-ba58-4f01-b04a-0001d527c1ed")
+	)
+	(no_connect
+		(at 180.34 76.2)
+		(uuid "af70582f-91b3-486b-ac95-4adc17a1db39")
+	)
+	(no_connect
+		(at 74.93 71.12)
+		(uuid "aff25410-ea9c-4fa8-b256-61e1e18b43a0")
+	)
+	(no_connect
+		(at 180.34 63.5)
+		(uuid "b35ca1a2-3c91-4ecf-8694-6d6a5a3a6cf3")
+	)
+	(no_connect
+		(at 180.34 88.9)
+		(uuid "b7ef6e0c-9d73-452f-bb87-11fcea6b139e")
+	)
+	(no_connect
+		(at 180.34 86.36)
+		(uuid "bb308abb-91a2-43b9-85c4-56775c7c1932")
+	)
+	(no_connect
+		(at 180.34 93.98)
+		(uuid "c98064d9-0cbf-46a4-8214-773b7c8bfae4")
+	)
+	(no_connect
+		(at 205.74 76.2)
+		(uuid "d8e7b2b9-8f9b-4756-b77d-3962f2ff6000")
+	)
+	(no_connect
+		(at 180.34 68.58)
+		(uuid "dbadeda1-f091-415e-ab6d-0f6c20ba618a")
+	)
+	(no_connect
+		(at 193.04 101.6)
+		(uuid "dfaf1c57-0df5-4885-a86e-aca86843d657")
+	)
+	(no_connect
+		(at 205.74 78.74)
+		(uuid "ee4c9449-415d-45ae-b43d-39688330da6a")
+	)
+	(no_connect
+		(at 205.74 83.82)
+		(uuid "fbad403d-81fb-45ad-b78e-0d4e39cb72af")
 	)
 	(wire
 		(pts
@@ -2631,7 +3119,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 129.54) (xy 228.6 129.54)
+			(xy 229.87 127) (xy 236.22 127)
 		)
 		(stroke
 			(width 0)
@@ -2651,7 +3139,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 134.62) (xy 228.6 134.62)
+			(xy 229.87 132.08) (xy 236.22 132.08)
 		)
 		(stroke
 			(width 0)
@@ -2668,6 +3156,26 @@
 			(type default)
 		)
 		(uuid "305e926d-0c55-4bdc-ab50-94c7189497c3")
+	)
+	(wire
+		(pts
+			(xy 95.25 146.05) (xy 107.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "316c4f68-a537-4a67-bc52-422ea859a8c2")
+	)
+	(wire
+		(pts
+			(xy 170.18 137.16) (xy 173.99 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3273a647-51a2-4683-9bdf-21366501449f")
 	)
 	(wire
 		(pts
@@ -2701,6 +3209,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 156.21) (xy 120.65 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41b20391-9058-4d94-ba1b-d097a803573d")
+	)
+	(wire
+		(pts
 			(xy 92.71 46.99) (xy 92.71 52.07)
 		)
 		(stroke
@@ -2711,6 +3229,26 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 148.59) (xy 107.95 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53276c51-7605-40d0-bf56-41aa77fb1da3")
+	)
+	(wire
+		(pts
+			(xy 189.23 137.16) (xy 194.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "540f9aa1-7fac-4b44-9cab-a732eb02b171")
+	)
+	(wire
+		(pts
 			(xy 43.18 73.66) (xy 54.61 73.66)
 		)
 		(stroke
@@ -2718,6 +3256,16 @@
 			(type default)
 		)
 		(uuid "5702b21a-fade-445f-96a8-f6aa96b77337")
+	)
+	(wire
+		(pts
+			(xy 118.11 156.21) (xy 118.11 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cb365a5-591a-4073-84cf-e28d3a42c191")
 	)
 	(wire
 		(pts
@@ -2758,6 +3306,16 @@
 			(type default)
 		)
 		(uuid "65cd483b-f45c-4816-9cc9-a64906cb07d3")
+	)
+	(wire
+		(pts
+			(xy 118.11 124.46) (xy 118.11 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bd286af-edbf-4d5c-aec7-eb73658192ba")
 	)
 	(wire
 		(pts
@@ -2811,7 +3369,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 113.03) (xy 238.76 124.46)
+			(xy 124.46 157.48) (xy 124.46 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d7a736c-0eb4-43c8-aff7-e92a0fe9e142")
+	)
+	(wire
+		(pts
+			(xy 246.38 110.49) (xy 246.38 121.92)
 		)
 		(stroke
 			(width 0)
@@ -2841,7 +3409,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 139.7) (xy 238.76 146.05)
+			(xy 246.38 137.16) (xy 246.38 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2861,7 +3429,17 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 132.08) (xy 257.81 132.08)
+			(xy 120.65 157.48) (xy 124.46 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf06938-a752-444c-9869-745acc51e274")
+	)
+	(wire
+		(pts
+			(xy 256.54 129.54) (xy 265.43 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2901,6 +3479,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 135.89) (xy 107.95 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc77407f-28b9-449a-bf0e-037d308f3e34")
+	)
+	(wire
+		(pts
+			(xy 95.25 151.13) (xy 107.95 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1123681-7d22-4b80-b16a-e0e2f23f45b7")
+	)
+	(wire
+		(pts
 			(xy 64.77 86.36) (xy 64.77 91.44)
 		)
 		(stroke
@@ -2918,6 +3516,16 @@
 			(type default)
 		)
 		(uuid "c3cd8619-6723-4d66-b738-3f36f6b95415")
+	)
+	(wire
+		(pts
+			(xy 101.6 138.43) (xy 107.95 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc923a61-24d3-4689-8061-5835b92b58ff")
 	)
 	(wire
 		(pts
@@ -2991,13 +3599,33 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 132.08) (xy 228.6 132.08)
+			(xy 229.87 129.54) (xy 236.22 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "eb6a591c-76da-4de0-a414-223a6d5a670a")
+	)
+	(wire
+		(pts
+			(xy 195.58 46.99) (xy 195.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda5cfdc-9d2d-4d7e-89fb-d47fc3b36a8e")
+	)
+	(wire
+		(pts
+			(xy 181.61 144.78) (xy 181.61 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef053a62-b0dd-4884-939a-6e1f2bc90100")
 	)
 	(wire
 		(pts
@@ -3050,7 +3678,7 @@
 		(uuid "081ea0e8-adb6-4eb2-b358-206c2d1607e1")
 	)
 	(label "GND"
-		(at 222.25 134.62 0)
+		(at 229.87 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3070,7 +3698,17 @@
 		(uuid "1332eb1a-959f-42e8-8b97-16687a6d8ebe")
 	)
 	(label "GND"
-		(at 238.76 146.05 0)
+		(at 118.11 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "292227f7-da9c-4615-bff5-61a737d31a32")
+	)
+	(label "GND"
+		(at 246.38 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3098,6 +3736,16 @@
 			(justify left bottom)
 		)
 		(uuid "3b52eefb-5d22-447b-b9cd-b7b8d935cc39")
+	)
+	(label "3v3"
+		(at 118.11 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "426df47a-d38a-44c0-ae5f-75bcb223eb8d")
 	)
 	(label "sda"
 		(at 85.09 78.74 0)
@@ -3130,7 +3778,7 @@
 		(uuid "4a5a3247-4913-4b71-8f92-42d04308692b")
 	)
 	(label "sda"
-		(at 222.25 132.08 0)
+		(at 229.87 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3150,7 +3798,7 @@
 		(uuid "5580d065-734f-4544-a975-f9728602e5a9")
 	)
 	(label "5V"
-		(at 238.76 113.03 0)
+		(at 246.38 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3179,6 +3827,16 @@
 		)
 		(uuid "61257c07-5390-47bb-81bd-672be6058221")
 	)
+	(label "scl"
+		(at 101.6 138.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6e222186-d55f-42ba-bfd7-09a5b6d5ea75")
+	)
 	(label "dac_output"
 		(at 100.33 38.1 0)
 		(effects
@@ -3199,6 +3857,16 @@
 		)
 		(uuid "7ec855a8-db74-4538-a442-75854e895ef7")
 	)
+	(label "12V"
+		(at 170.18 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "83bbb5a1-68f0-4842-b029-a93881f938a7")
+	)
 	(label "GND"
 		(at 76.2 127 0)
 		(effects
@@ -3218,6 +3886,16 @@
 			(justify left bottom)
 		)
 		(uuid "911a496c-1a2b-49c4-8c1a-5f728e3541df")
+	)
+	(label "GND"
+		(at 124.46 160.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "953f52a1-2e43-44c4-b81d-d7c6e6084545")
 	)
 	(label "GND"
 		(at 142.24 118.11 0)
@@ -3270,7 +3948,7 @@
 		(uuid "ae961259-15d0-4bb9-af2d-073304af3425")
 	)
 	(label "dac_output"
-		(at 257.81 132.08 0)
+		(at 265.43 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,7 +3958,7 @@
 		(uuid "b07596a4-11aa-4cbc-b7e7-3085916f2f20")
 	)
 	(label "scl"
-		(at 222.25 129.54 0)
+		(at 229.87 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3288,6 +3966,16 @@
 			(justify left bottom)
 		)
 		(uuid "b0fe91b1-4718-4d81-b961-46ad7db5289a")
+	)
+	(label "sda"
+		(at 101.6 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b363215c-1df9-49e9-a458-45b95bc5a458")
 	)
 	(label "GND"
 		(at 43.18 81.28 0)
@@ -3318,6 +4006,16 @@
 			(justify left bottom)
 		)
 		(uuid "c13d7e79-7b1b-4858-bfb3-e1acbf65eafa")
+	)
+	(label "3v3"
+		(at 195.58 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c3dbb60c-1f42-41d5-a77c-a5c794923878")
 	)
 	(label "5V"
 		(at 198.12 44.45 0)
@@ -3359,13 +4057,23 @@
 		)
 		(uuid "f6afeb35-ce01-4201-a7a2-4cdda12e876f")
 	)
+	(label "Power Supply"
+		(at 194.31 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff1076fb-a426-4557-b076-1990be5369db")
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 243.84 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3443,7 +4151,7 @@
 	)
 	(symbol
 		(lib_id "Analog_DAC:MCP4725xxx-xCH")
-		(at 238.76 132.08 0)
+		(at 246.38 129.54 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3453,8 +4161,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1328224b-8606-44db-8d54-3f3302536fe7")
-		(property "Reference" "U3"
-			(at 256.54 125.6598 0)
+		(property "Reference" "DAC"
+			(at 264.16 123.1198 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3464,7 +4172,7 @@
 			)
 		)
 		(property "Value" "MCP4725xxx-xCH"
-			(at 256.54 128.1998 0)
+			(at 264.16 125.6598 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3474,7 +4182,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
-			(at 238.76 138.43 0)
+			(at 246.38 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3485,7 +4193,7 @@
 			)
 		)
 		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/22039d.pdf"
-			(at 238.76 132.08 0)
+			(at 246.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,7 +4204,7 @@
 			)
 		)
 		(property "Description" "12-bit Digital-to-Analog Converter, integrated EEPROM, I2C interface, SOT-23-6"
-			(at 238.76 132.08 0)
+			(at 246.38 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3527,7 +4235,7 @@
 		(instances
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
-					(reference "U3")
+					(reference "DAC")
 					(unit 1)
 				)
 			)
@@ -3633,7 +4341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26b06ad6-2703-46e2-bb26-9d4e8c1d83bb")
-		(property "Reference" "U1"
+		(property "Reference" "ADC"
 			(at 66.9133 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3721,7 +4429,108 @@
 		(instances
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
-					(reference "U1")
+					(reference "ADC")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Temperature:MCP9808_DFN")
+		(at 118.11 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e4b6310-9e61-4c74-8c09-d3cf02834c41")
+		(property "Reference" "Temp_Snsr"
+			(at 133.35 137.0898 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP9808_DFN"
+			(at 133.35 139.6298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:DFN-8-1EP_3x2mm_P0.5mm_EP1.7x1.4mm"
+			(at 118.11 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://ww1.microchip.com/downloads/en/DeviceDoc/MCP9808-0.5C-Maximum-Accuracy-Digital-Temperature-Sensor-Data-Sheet-DS20005095B.pdf"
+			(at 111.76 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "±0.25°C (±0.5°C) Typical (Maximum), Digital Temperature Sensor, DFN-8"
+			(at 118.11 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "c8e5e419-8797-4f40-956d-aa1d7152c294")
+		)
+		(pin "6"
+			(uuid "7f98c855-367d-4799-9ed7-eb7fabdd7adc")
+		)
+		(pin "4"
+			(uuid "e2322a50-1f6e-40ec-b8c3-56ac69bb1cee")
+		)
+		(pin "1"
+			(uuid "7c6ab2aa-c346-4100-b18d-6f969dbe6a2c")
+		)
+		(pin "9"
+			(uuid "05042177-7f93-4e67-9b0f-238285e95323")
+		)
+		(pin "2"
+			(uuid "b3fb8dfd-997c-4e0a-b2e8-cb29333bfd3a")
+		)
+		(pin "5"
+			(uuid "4b3b2bdf-7993-451a-8150-67a9a40a03cd")
+		)
+		(pin "7"
+			(uuid "5fe39dd6-c3e6-4827-90a0-a50848446015")
+		)
+		(pin "3"
+			(uuid "f371eaaf-3bbb-4b4c-8fd0-9735b490cdee")
+		)
+		(instances
+			(project "dc_programmable_load"
+				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
+					(reference "Temp_Snsr")
 					(unit 1)
 				)
 			)
@@ -3811,7 +4620,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3891,7 +4700,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3960,6 +4769,89 @@
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 90.17 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62f24db1-c10b-4301-b112-e918342b8cf8")
+		(property "Reference" "J2"
+			(at 90.805 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 90.805 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x03_P2.00mm_Vertical"
+			(at 90.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 90.17 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ba1fae3-e784-40aa-a874-412658f98bf9")
+		)
+		(pin "2"
+			(uuid "266e76d2-652d-4928-a8d9-ee48625e4509")
+		)
+		(pin "3"
+			(uuid "0608fcd5-0991-4fe7-a03d-bcd53abe4e6c")
+		)
+		(instances
+			(project "dc_programmable_load"
+				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -4264,7 +5156,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:BarrelJack_CUI_PJ-063AH_Horizontal"
 			(at 59.69 125.476 0)
 			(hide yes)
 			(show_name no)
@@ -4318,7 +5210,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4400,7 +5292,7 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4471,91 +5363,6 @@
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Temperature:DS18B20")
-		(at 110.49 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c0acc208-30bf-4880-9a22-7f7d075123d2")
-		(property "Reference" "U2"
-			(at 104.14 143.5099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DS18B20"
-			(at 104.14 146.0499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
-			(at 85.09 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
-			(at 106.68 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Programmable Resolution 1-Wire Digital Thermometer TO-92"
-			(at 110.49 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6ad14ada-527c-4709-9008-bb26b74aaecf")
-		)
-		(pin "2"
-			(uuid "de75d62e-226a-440e-b240-0644a01581ea")
-		)
-		(pin "3"
-			(uuid "1a4d8c04-6fe6-4370-9acc-cb7d05df886f")
-		)
-		(instances
-			(project "dc_programmable_load"
-				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -4640,12 +5447,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM317_SOT-223")
+		(at 181.61 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef041906-3e21-4391-bf29-331df36c2f09")
+		(property "Reference" "U2"
+			(at 181.61 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM317_SOT-223"
+			(at 181.61 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 181.61 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm317.pdf"
+			(at 181.61 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1.5A 35V Adjustable Linear Regulator, SOT-223"
+			(at 181.61 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "40f0c4c6-de76-4d09-9c02-9ac271cc204f")
+		)
+		(pin "1"
+			(uuid "645be93b-5bad-47ac-85a1-bc94e4b6b6c0")
+		)
+		(pin "3"
+			(uuid "b8732e79-67fc-40dd-989c-430e941ab931")
+		)
+		(instances
+			(project "dc_programmable_load"
+				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 142.24 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
