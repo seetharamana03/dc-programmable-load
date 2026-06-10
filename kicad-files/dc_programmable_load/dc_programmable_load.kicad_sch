@@ -2982,7 +2982,7 @@
 		(uuid "4e883dc5-c1e3-4807-b150-2b3079f7e8b6")
 	)
 	(junction
-		(at 142.24 104.14)
+		(at 140.97 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "997df7c2-74ff-4928-9bb8-2092cccfd542")
@@ -3109,7 +3109,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 81.28) (xy 142.24 88.9)
+			(xy 140.97 76.2) (xy 140.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -3129,7 +3129,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 93.98) (xy 118.11 93.98)
+			(xy 106.68 88.9) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3179,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 114.3) (xy 142.24 118.11)
+			(xy 140.97 109.22) (xy 140.97 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3299,7 +3299,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 93.98) (xy 134.62 93.98)
+			(xy 124.46 88.9) (xy 133.35 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3469,7 +3469,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 99.06) (xy 142.24 104.14)
+			(xy 140.97 93.98) (xy 140.97 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3529,7 +3529,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 104.14) (xy 142.24 104.14)
+			(xy 130.81 99.06) (xy 140.97 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3589,7 +3589,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 104.14) (xy 142.24 106.68)
+			(xy 140.97 99.06) (xy 140.97 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3758,7 +3758,7 @@
 		(uuid "43d6ece6-79f7-403b-b5f7-990ab5efaceb")
 	)
 	(label "opamp_output"
-		(at 107.95 93.98 0)
+		(at 106.68 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3768,7 +3768,7 @@
 		(uuid "496fbb62-c7ac-47ad-89f7-fdbc48bffbcf")
 	)
 	(label "Power Supply"
-		(at 142.24 81.28 0)
+		(at 140.97 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3898,7 +3898,7 @@
 		(uuid "953f52a1-2e43-44c4-b81d-d7c6e6084545")
 	)
 	(label "GND"
-		(at 142.24 118.11 0)
+		(at 140.97 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4048,7 +4048,7 @@
 		(uuid "dc0749c7-e53e-4bd0-ba05-53a411ad8aab")
 	)
 	(label "A0"
-		(at 132.08 104.14 0)
+		(at 130.81 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4101,7 +4101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 242.062 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -4161,7 +4161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1328224b-8606-44db-8d54-3f3302536fe7")
-		(property "Reference" "DAC"
+		(property "Reference" "DAC1"
 			(at 264.16 123.1198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4235,7 +4235,7 @@
 		(instances
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
-					(reference "DAC")
+					(reference "DAC1")
 					(unit 1)
 				)
 			)
@@ -4243,7 +4243,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRF3205")
-		(at 139.7 93.98 0)
+		(at 138.43 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4254,7 +4254,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a1e81c6-c95a-40ad-a5b1-503c5cb74e80")
 		(property "Reference" "Q1"
-			(at 146.05 92.7099 0)
+			(at 144.78 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4265,7 +4265,7 @@
 			)
 		)
 		(property "Value" "IRF3205"
-			(at 146.05 95.2499 0)
+			(at 144.78 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4276,7 +4276,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 144.78 95.885 0)
+			(at 143.51 90.805 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4289,7 +4289,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf3205.pdf"
-			(at 144.78 97.79 0)
+			(at 143.51 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4301,7 +4301,7 @@
 			)
 		)
 		(property "Description" "110A Id, 55V Vds, Single N-Channel HEXFET Power MOSFET, 8mOhm Ron, TO-220AB"
-			(at 139.7 93.98 0)
+			(at 138.43 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4341,7 +4341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26b06ad6-2703-46e2-bb26-9d4e8c1d83bb")
-		(property "Reference" "ADC"
+		(property "Reference" "ADC1"
 			(at 66.9133 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4429,7 +4429,7 @@
 		(instances
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
-					(reference "ADC")
+					(reference "ADC1")
 					(unit 1)
 				)
 			)
@@ -4447,7 +4447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e4b6310-9e61-4c74-8c09-d3cf02834c41")
-		(property "Reference" "Temp_Snsr"
+		(property "Reference" "Temp_Snsr1"
 			(at 133.35 137.0898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4530,7 +4530,7 @@
 		(instances
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
-					(reference "Temp_Snsr")
+					(reference "Temp_Snsr1")
 					(unit 1)
 				)
 			)
@@ -4616,7 +4616,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 93.98 90)
+		(at 120.65 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4627,7 +4627,7 @@
 		(fields_autoplaced yes)
 		(uuid "53690fa9-f5b7-4786-a20d-7e20845cb25c")
 		(property "Reference" "R6"
-			(at 121.92 87.63 90)
+			(at 120.65 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4637,7 +4637,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 121.92 90.17 90)
+			(at 120.65 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4646,8 +4646,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 121.92 95.758 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 120.65 90.678 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4658,7 +4658,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 93.98 0)
+			(at 120.65 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4669,7 +4669,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 93.98 0)
+			(at 120.65 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,7 +4726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 96.52 34.798 90)
 			(hide yes)
 			(show_name no)
@@ -5056,7 +5056,7 @@
 				)
 			)
 		)
-		(property "Footprint" "D8"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 107.95 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5238,7 +5238,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 90.932 43.18 90)
 			(hide yes)
 			(show_name no)
@@ -5320,7 +5320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 242.062 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -5532,7 +5532,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 110.49 0)
+		(at 140.97 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5542,8 +5542,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efe7d7af-dbb0-4f6e-b959-1e97be56c3fc")
-		(property "Reference" "1_ohm_3_watt"
-			(at 144.78 109.2199 0)
+		(property "Reference" "1_ohm_3_watt1"
+			(at 143.51 104.1399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5554,7 +5554,7 @@
 			)
 		)
 		(property "Value" "1"
-			(at 144.78 111.7599 0)
+			(at 143.51 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5565,7 +5565,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.462 110.49 90)
+			(at 139.192 105.41 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +5576,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 110.49 0)
+			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5587,7 +5587,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 110.49 0)
+			(at 140.97 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5606,7 +5606,7 @@
 		(instances
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
-					(reference "1_ohm_3_watt")
+					(reference "1_ohm_3_watt1")
 					(unit 1)
 				)
 			)
