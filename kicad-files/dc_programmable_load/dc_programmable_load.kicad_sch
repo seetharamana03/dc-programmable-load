@@ -6802,7 +6802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e4b6310-9e61-4c74-8c09-d3cf02834c41")
-		(property "Reference" "TempSnsr1"
+		(property "Reference" "TS1"
 			(at 133.35 137.0898 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6885,7 +6885,7 @@
 		(instances
 			(project "dc_programmable_load"
 				(path "/7d9f568b-a623-4d00-b358-1664894d4efb"
-					(reference "TempSnsr1")
+					(reference "TS1")
 					(unit 1)
 				)
 			)
