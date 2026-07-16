@@ -673,7 +673,7 @@
         "uuid": "7d9f568b-a623-4d00-b358-1664894d4efb"
       }
     ],
-    "used_designators": "F1,U4,R4",
+    "used_designators": "F1,U4,R4,SDA/SCL2-3",
     "variants": []
   },
   "sheets": [
